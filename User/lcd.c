@@ -3870,11 +3870,11 @@ int lcd_init()
 
     LCD_Fill_Slow(0,0,LCD_W,LCD_H,RED);
 
-    LCD_Fill_Slow(0,0,LCD_W,LCD_H,BLACK);
+    LCD_Fill_Slow(0,0,LCD_W,LCD_H,MAGENTA);
+
+    LCD_Fill_Slow(0,0,LCD_W,LCD_H,YELLOW);
 
     LCD_Fill_Slow(0,0,LCD_W,LCD_H,WHITE);
-
-
 
     LCD_ShowPicture_Slow(29,48,182,144,gImage_test);
     //LCD_ShowPicture_Fast(29,48,182,144,gImage_test);
